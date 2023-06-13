@@ -1,6 +1,6 @@
 # @yutengjing/tsconfig
 
-[![npm](https://img.shields.io/npm/v/@yutengjing/tsconfig-base.svg)](https://npmjs.com/package/@yutengjing/tsconfig-base) [![downloads](https://img.shields.io/npm/dw/@yutengjing/tsconfig-base)](https://npmjs.com/package/@yutengjing/tsconfig-base) [![test](https://github.com/tjx666/unplugin-detect-duplicated-deps/actions/workflows/test.yml/badge.svg)](https://github.com/tjx666/unplugin-detect-duplicated-deps/actions/workflows/test.yml)
+[![npm](https://img.shields.io/npm/v/@yutengjing/tsconfig-base.svg)](https://npmjs.com/package/@yutengjing/tsconfig-base) [![downloads](https://img.shields.io/npm/dw/@yutengjing/tsconfig-base)](https://npmjs.com/package/@yutengjing/tsconfig-base) [![Test](https://github.com/tjx666/tsconfig/actions/workflows/test.yml/badge.svg)](https://github.com/tjx666/tsconfig/actions/workflows/test.yml)
 
 ## Config list
 
@@ -12,11 +12,36 @@
 
 ### Install
 
-eslint is peerDependencies, make sure you had already installed eslint.
+for node user:
 
 ```bash
 pnpm add -D @yutengjing/tsconfig-node
+
+# @types/node is peerDependencies
+# pnpm add -D @types/node
 ```
+
+for vue user:
+
+```bash
+pnpm add -D @yutengjing/tsconfig-vue
+
+# vue, vite is peerDependencies
+# pnpm add vue
+# pnpm add -D vite
+```
+
+### Config tsconfig.json
+
+`tsconfig.json`:
+
+```json
+{
+  "extends": "@yutengjing/tsconfig-node/tsconfig.json"
+}
+```
+
+You can check more details from [fixtures](https://github.com/tjx666/tsconfig/tree/main/fixtures).
 
 ## Thanks
 
