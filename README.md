@@ -7,6 +7,7 @@
 - [@yutengjing/tsconfig-base](https://github.com/tjx666/eslint-config/tree/main/packages/base)
 - [@yutengjing/tsconfig-node](https://github.com/tjx666/eslint-config/tree/main/packages/node)
 - [@yutengjing/tsconfig-vue](https://github.com/tjx666/eslint-config/tree/main/packages/vue)
+- [@yutengjing/tsconfig-react](https://github.com/tjx666/eslint-config/tree/main/packages/react)
 
 ## Usage
 
@@ -17,7 +18,7 @@ for node user:
 ```bash
 pnpm add -D @yutengjing/tsconfig-node
 
-# @types/node is peerDependencies
+# peerDependencies
 # pnpm add -D @types/node
 ```
 
@@ -26,14 +27,21 @@ for vue user:
 ```bash
 pnpm add -D @yutengjing/tsconfig-vue
 
-# vue, vite is peerDependencies
+# peerDependencies
 # pnpm add vue
 # pnpm add -D vite
 ```
 
-### Config tsconfig.json
+for react user:
 
-`tsconfig.json`:
+```bash
+pnpm add -D @yutengjing/tsconfig-react
+
+# peerDependencies
+# pnpm add -D @types/react @types/react-dom
+```
+
+### Config tsconfig.json
 
 ```json
 {
@@ -41,7 +49,7 @@ pnpm add -D @yutengjing/tsconfig-vue
 }
 ```
 
-You can check more details from [fixtures](https://github.com/tjx666/tsconfig/tree/main/fixtures).
+You can check [fixtures](https://github.com/tjx666/tsconfig/tree/main/fixtures) to see how to use in real projects.
 
 ## Thanks
 
