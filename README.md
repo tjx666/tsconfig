@@ -1,6 +1,6 @@
 # @yutengjing/tsconfig
 
-[![npm](https://img.shields.io/npm/v/@yutengjing/tsconfig-base.svg)](https://npmjs.com/package/@yutengjing/tsconfig-base) [![downloads](https://img.shields.io/npm/dw/@yutengjing/tsconfig-base)](https://npmjs.com/package/@yutengjing/tsconfig-base) [![Test](https://github.com/tjx666/tsconfig/actions/workflows/test.yml/badge.svg)](https://github.com/tjx666/tsconfig/actions/workflows/test.yml)
+[![npm](https://img.shields.io/npm/v/@yutengjing/tsconfig-base.svg)](https://npmjs.com/package/@yutengjing/tsconfig-base) [![downloads](https://img.shields.io/npm/dw/@yutengjing/tsconfig-base)](https://npmjs.com/package/@yutengjing/tsconfig-base) [![test](https://github.com/tjx666/tsconfig/actions/workflows/test.yml/badge.svg)](https://github.com/tjx666/tsconfig/actions/workflows/test.yml)
 
 ## Config list
 
