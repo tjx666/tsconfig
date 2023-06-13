@@ -15,7 +15,9 @@
     },
     "keywords": [
         "typescript",
-        "tsconfig"
+        "tsconfig",
+        "extends",
+        "base"
     ],
     "files": [
         "tsconfig.json"
