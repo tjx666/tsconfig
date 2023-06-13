@@ -4,10 +4,10 @@
 
 ## Config list
 
-- [@yutengjing/tsconfig-base](https://github.com/tjx666/eslint-config/tree/main/packages/base)
-- [@yutengjing/tsconfig-node](https://github.com/tjx666/eslint-config/tree/main/packages/node)
-- [@yutengjing/tsconfig-vue](https://github.com/tjx666/eslint-config/tree/main/packages/vue)
-- [@yutengjing/tsconfig-react](https://github.com/tjx666/eslint-config/tree/main/packages/react)
+- [@yutengjing/tsconfig-base](https://github.com/tjx666/tsconfig/tree/main/packages/base)
+- [@yutengjing/tsconfig-node](https://github.com/tjx666/tsconfig/tree/main/packages/node)
+- [@yutengjing/tsconfig-vue](https://github.com/tjx666/tsconfig/tree/main/packages/vue)
+- [@yutengjing/tsconfig-react](https://github.com/tjx666/tsconfig/tree/main/packages/react)
 
 ## Usage
 
