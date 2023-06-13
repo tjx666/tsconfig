@@ -10,7 +10,7 @@
     "homepage": "https://github.com/tjx666/eslint-config/tree/main/packages/vue",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tsconfig/bases.git",
+        "url": "git@github.com:tjx666/tsconfig.git",
         "directory": "packages/vue"
     },
     "keywords": [

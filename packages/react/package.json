@@ -1,5 +1,5 @@
 {
-    "name": "@yutengjing/tsconfig-node",
+    "name": "@yutengjing/tsconfig-react",
     "version": "0.0.1",
     "license": "MIT",
     "author": {
@@ -7,17 +7,17 @@
         "url": "https://github.com/tjx666",
         "email": "ytj2713151713@gmail.com"
     },
-    "homepage": "https://github.com/tjx666/eslint-config/tree/main/packages/node",
+    "homepage": "https://github.com/tjx666/eslint-config/tree/main/packages/react",
     "repository": {
         "type": "git",
         "url": "git@github.com:tjx666/tsconfig.git",
-        "directory": "packages/node"
+        "directory": "packages/react"
     },
     "keywords": [
         "typescript",
         "tsconfig",
         "extends",
-        "node"
+        "react"
     ],
     "files": [
         "tsconfig.json"
@@ -26,10 +26,11 @@
         "registry": "https://registry.npmjs.org/",
         "access": "public"
     },
+    "peerDependencies": {
+        "@types/react": "^18.2.12",
+        "@types/react-dom": "^18.2.5"
+    },
     "dependencies": {
         "@yutengjing/tsconfig-base": "workspace:*"
-    },
-    "peerDependencies": {
-        "@types/node": "^18.16.18"
     }
 }

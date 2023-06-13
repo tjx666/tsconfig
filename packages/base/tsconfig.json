@@ -3,6 +3,7 @@
         /* Language and Environment */
         "target": "esnext",
         "experimentalDecorators": true,
+        "useDefineForClassFields": true,
 
         /* Modules */
         "module": "esnext",
@@ -13,6 +14,7 @@
         "allowJs": true,
 
         /* Emit */
+        "noEmit": true,
         "removeComments": true,
 
         /* Interop Constraints */
