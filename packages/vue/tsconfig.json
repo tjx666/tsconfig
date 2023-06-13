@@ -1,0 +1,19 @@
+{
+    "extends": "@yutengjing/tsconfig-base/tsconfig.json",
+    "compilerOptions": {
+        /* Projects */
+        "moduleResolution": "bundler",
+
+        /* Language and Environment */
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "jsx": "preserve",
+        "jsxImportSource": "vue",
+
+        /* Modules */
+        "types": ["vite/client"]
+    },
+    /* Volar */
+    "vueCompilerOptions": {
+        "target": 2.7
+    }
+}

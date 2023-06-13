@@ -1,0 +1,9 @@
+{
+    "name": "test-node",
+    "scripts": {
+        "test": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@yutengjing/tsconfig-node": "workspace:*"
+    }
+}

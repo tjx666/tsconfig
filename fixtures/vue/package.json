@@ -1,0 +1,17 @@
+{
+    "name": "test-vue",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "test": "vue-tsc --noEmit"
+    },
+    "dependencies": {
+        "@vitejs/plugin-vue": "^4.2.3",
+        "vite": "^4.3.9",
+        "vue": "^3.3.4"
+    },
+    "devDependencies": {
+        "@yutengjing/tsconfig-vue": "workspace:*",
+        "vue-tsc": "^1.6.5"
+    }
+}

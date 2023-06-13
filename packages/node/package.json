@@ -1,0 +1,34 @@
+{
+    "name": "@yutengjing/tsconfig-node",
+    "version": "0.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "YuTengjing",
+        "url": "https://github.com/tjx666",
+        "email": "ytj2713151713@gmail.com"
+    },
+    "homepage": "https://github.com/tjx666/eslint-config/tree/main/packages/node",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tsconfig/node.git",
+        "directory": "packages/node"
+    },
+    "keywords": [
+        "typescript",
+        "tsconfig",
+        "node"
+    ],
+    "files": [
+        "tsconfig.json"
+    ],
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "access": "public"
+    },
+    "dependencies": {
+        "@yutengjing/tsconfig-base": "workspace:*"
+    },
+    "peerDependencies": {
+        "@types/node": "^18.16.16"
+    }
+}
