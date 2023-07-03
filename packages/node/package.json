@@ -30,6 +30,6 @@
         "@yutengjing/tsconfig-base": "workspace:*"
     },
     "peerDependencies": {
-        "@types/node": "^18.16.18"
+        "@types/node": "^18.16.19"
     }
 }

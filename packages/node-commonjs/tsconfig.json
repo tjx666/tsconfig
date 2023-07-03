@@ -1,0 +1,7 @@
+{
+    "extends": "@yutengjing/tsconfig-node/tsconfig.json",
+    "compilerOptions": {
+        "module": "CommonJS",
+        "verbatimModuleSyntax": false
+    }
+}
