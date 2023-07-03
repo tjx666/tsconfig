@@ -1,0 +1,9 @@
+{
+    "name": "test-node-commonjs",
+    "scripts": {
+        "test": "tsc"
+    },
+    "devDependencies": {
+        "@yutengjing/tsconfig-node-commonjs": "workspace:*"
+    }
+}
