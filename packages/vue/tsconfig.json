@@ -14,6 +14,6 @@
     },
     /* Volar */
     "vueCompilerOptions": {
-        "target": 2.7
+        "target": "auto"
     }
 }
