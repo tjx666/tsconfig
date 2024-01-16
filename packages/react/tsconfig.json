@@ -1,9 +1,6 @@
 {
     "extends": "@yutengjing/tsconfig-base/tsconfig.json",
     "compilerOptions": {
-        /* Projects */
-        "moduleResolution": "bundler",
-
         /* Language and Environment */
         "lib": ["ESNext", "DOM", "DOM.Iterable"],
         "jsx": "react-jsx",

@@ -1,13 +1,13 @@
 {
     "compilerOptions": {
         /* Language and Environment */
-        "target": "esnext",
+        "target": "ESNext",
         "experimentalDecorators": true,
         "useDefineForClassFields": true,
 
         /* Modules */
-        "module": "esnext",
-        "moduleResolution": "node",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
         "resolveJsonModule": true,
 
         /* JavaScript Support */
